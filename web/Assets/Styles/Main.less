@@ -1,0 +1,61 @@
+@import '../Components/bootstrap/css/bootstrap.css';
+
+@primary: #DF6C5A; // orange1
+@primary: #E96C55; // orange2
+@primary: #1CAFCF; // blue
+// @primary: #D56D92; // pink
+// @primary: #7D4B82; // purple
+// @primary: #41BDBD; // teal
+@primary: #FF8600; // typo3 orange
+// @primary: #E75749; // red
+// @primary: #FCAA17; // yellow
+// @primary: #ED4142; // red2
+// @primary: #00394E; // dark blue
+// @primary: #556D9D; // shallow blue
+// @primary: #E64A4A; // shallow red
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default {
+	background: @primary;
+	height: 80px;
+	margin-bottom: 0;
+
+	.navbar-brand {
+		color: white;
+		font-size: 30px;
+		padding: 30px 0;
+	}
+
+	.navbar-nav > li > a {
+		padding: 30px 20px;
+		color: white;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+.main-content {
+	padding-top: 30px;
+}
+
+.sidebar {
+	padding-top: 30px;
+	background: #f8f8f8;
+	box-shadow: 0px 0px 0 0 #f8f8f8,
+				0px 0px 0 0 #f8f8f8,
+				460px 0 0 0 #f8f8f8,
+				2000px 0 0 0 #f8f8f8,
+				0px 600px 0 0px #f8f8f8,
+				460px 600px 0 0px #f8f8f8;
+}
+
+footer {
+	position: relative;
+	z-index: 10;
+	background: darken(@primary, 15%);
+	padding: 30px 0;
+	color: white;
+}

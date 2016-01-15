@@ -1,0 +1,27 @@
+<f:layout name="Default" />
+
+<f:section name="Main">
+	<f:if condition="(1 && false) || false || {f:if(condition: 1, then: 1)}">
+		then!
+	</f:if>
+
+	{(true && 1) ? 'bar':'foo'}
+	{(true && 0) ? 'bar':'foo'}
+
+	<f:if condition="({documentations} && false) || false || 'foobar' == 'foobar'">
+		then!
+	</f:if>
+	<f:if condition="(1 && false) || false || {f:if(condition: 1, then: 0)}">
+		nope!
+	</f:if>
+	<f:if condition="(false || 'foobar' == 'bar')">
+		<f:else>else!</f:else>
+	</f:if>
+	<f:if condition="1+1 == 2"></f:if>
+	<div class="markdown-body">
+		<f:for each="{documentations}" as="documentation">
+			<h3>{documentation.title}</h3>
+			{documentation.body->f:format.raw()}
+		</f:for>
+	</div>
+</f:section>
