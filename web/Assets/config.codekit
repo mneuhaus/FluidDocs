@@ -71,6 +71,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Components\/jquery\/jquery-1.12.0.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Components\/jquery\/jquery-1.12.0.min.js",
+		"outputAbbreviatedPath": "\/Components\/jquery\/min\/jquery-1.12.0.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Components\/match-height\/jquery.match-height.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Components\/match-height\/jquery.match-height.js",
+		"outputAbbreviatedPath": "\/Components\/match-height\/min\/jquery.match-height-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Components\/prism\/prism.css": {
 		"fileType": 16,
 		"ignore": 0,

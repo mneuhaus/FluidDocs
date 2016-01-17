@@ -1,0 +1,22 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://xsd.helmut-hummel.de/ns/TYPO3/CMS/Fluid/ViewHelpers">
+	<f:layout name="Default" />
+
+	<f:section name="Main">
+		<div class="banner">
+			<div class="container">
+				<h1>Getting Started</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 main-content" data-mh="main-content">
+					{markdown -> d:markdown()}
+				</div>
+				<div class="col-xs-4 sidebar" data-mh="main-content">
+
+				</div>
+			</div>
+		</div>
+	</f:section>
+</div>

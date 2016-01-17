@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c28d47a90a2af8d76e24bfade2552c21",
+    "hash": "2345bdadd4f8ae34ebcd784715b47cba",
     "content-hash": "b469b18444c4114c824e09e68ffe7e64",
     "packages": [
         {
@@ -86,7 +86,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3Fluid/Fluid/zipball/b7f58a8c9caab01f6d8f438c1d3eadaf1e621c59",
+                "url": "https://api.github.com/repos/TYPO3Fluid/Fluid/zipball/790ea7d055b0859eafc512c7718da308bfb4e56f",
                 "reference": "744c40823bf989caaf27cfbbb98a4cc7a8fb63a8",
                 "shasum": ""
             },

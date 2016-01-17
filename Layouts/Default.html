@@ -8,6 +8,7 @@
 		<link href="/Assets/Components/prism/prism.css" rel="stylesheet" />
 		<link href="/Assets/Styles/Main.css" rel="stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
@@ -19,19 +20,15 @@
 				</div>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../navbar/">Default</a></li>
-					<li><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+					<li><a href="/">Overview</a></li>
+					<li><a href="/getting-started">Getting Started</a></li>
+					<li><a href="/documentation">Documentation</a></li>
+					<li><a href="/about">About</a></li>
 				</ul>
-			</div>
 			</div>
 		</nav>
 
-
-		<div class="container">
-
-			<f:render section="Main" />
-
-		</div>
+		<f:render section="Main" />
 
 		<footer>
 			<div class="container">
@@ -41,6 +38,8 @@
 			</div>
 		</footer>
 
+		<script src="/Assets/Components/jquery/jquery-1.12.0.min.js"></script>
 		<script src="/Assets/Components/prism/prism.js"></script>
+		<script src="/Assets/Components/match-height/jquery.match-height.js"></script>
 	</body>
 </html>

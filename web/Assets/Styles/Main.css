@@ -1,11 +1,16 @@
 @import '../Components/bootstrap/css/bootstrap.css';
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+a {
+  color: #3a4b6b;
 }
 .navbar-default {
-  background: #FF8600;
+  background: #3a4b6b;
   height: 80px;
   margin-bottom: 0;
+  border: none;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -20,21 +25,102 @@ body {
 }
 .main-content {
   padding-top: 30px;
+  padding: 50px 40px;
 }
 .sidebar {
   padding-top: 30px;
   background: #f8f8f8;
-  box-shadow: 0px 0px 0 0 #f8f8f8,
-				0px 0px 0 0 #f8f8f8,
-				460px 0 0 0 #f8f8f8,
-				2000px 0 0 0 #f8f8f8,
-				0px 600px 0 0px #f8f8f8,
-				460px 600px 0 0px #f8f8f8;
+  padding: 50px 40px;
+}
+.sidebar :not(pre) > code[class*="language-"],
+.sidebar pre[class*="language-"] {
+  background: white;
 }
 footer {
   position: relative;
   z-index: 10;
-  background: #b35e00;
+  background: #3a4b6b;
   padding: 30px 0;
   color: white;
+}
+hr {
+  border-top: 1px solid #0d1119;
+  margin: 40px 0;
+  opacity: 0.15;
+}
+.banner {
+  background: #7288b3;
+  color: white;
+}
+.banner .container {
+  padding: 30px 40px;
+}
+.banner .container h1 {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 20px;
+}
+.icon-round {
+  border-radius: 100px;
+  background: #556D9D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.icon-round.icon-xl {
+  height: 100px;
+  width: 100px;
+  font-size: 55px;
+}
+.media-heading {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.media-body {
+  font-size: 18px;
+  font-weight: 200;
+}
+.media-left {
+  padding-right: 20px;
+}
+.media {
+  margin-top: 60px;
+}
+pre,
+pre[class*="language-"] {
+  border: none;
+  margin: 20px 0;
+  font-size: 14px;
+}
+h4 + .nav {
+  border-top: 1px solid rgba(13, 17, 25, 0.15);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.nav > li > a {
+  padding: 5px 0 5px 2px;
+}
+.nav > li > a:hover {
+  background: none;
+  color: #556D9D;
+}
+blockquote {
+  border: 1px solid rgba(85, 109, 157, 0.3);
+  background: rgba(85, 109, 157, 0.1);
+  padding: 15px 20px;
+  font-size: 15px;
 }
