@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2345bdadd4f8ae34ebcd784715b47cba",
-    "content-hash": "b469b18444c4114c824e09e68ffe7e64",
+    "hash": "9c96d4268f00ec83c825fd9a47629585",
+    "content-hash": "897eef0fd692504f7f860547c9716d63",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -77,27 +77,73 @@
             "time": "2015-12-18 23:49:18"
         },
         {
+            "name": "symfony/yaml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "91dbeb63c08bf4daf74b007d1a0cdc940d6c7efb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/91dbeb63c08bf4daf74b007d1a0cdc940d6c7efb",
+                "reference": "91dbeb63c08bf4daf74b007d1a0cdc940d6c7efb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-02-16 08:48:00"
+        },
+        {
             "name": "typo3fluid/fluid",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3Fluid/Fluid.git",
-                "reference": "744c40823bf989caaf27cfbbb98a4cc7a8fb63a8"
+                "reference": "8c62d41b66ffcbb5317bc67f598899ce1f7832d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3Fluid/Fluid/zipball/790ea7d055b0859eafc512c7718da308bfb4e56f",
-                "reference": "744c40823bf989caaf27cfbbb98a4cc7a8fb63a8",
+                "url": "https://api.github.com/repos/TYPO3Fluid/Fluid/zipball/8c62d41b66ffcbb5317bc67f598899ce1f7832d0",
+                "reference": "8c62d41b66ffcbb5317bc67f598899ce1f7832d0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "johnkary/phpunit-speedtrap": "~1.0@dev",
                 "mikey179/vfsstream": "*",
-                "namelesscoder/numerolog-phpunit": "@stable",
-                "namelesscoder/phpunit-xhprof": "^1.0@dev",
                 "phpunit/phpunit": "*",
                 "satooshi/php-coveralls": "*"
             },
@@ -115,14 +161,15 @@
                 "LGPL-3.0+"
             ],
             "description": "The TYPO3 Fluid template rendering engine",
-            "time": "2015-12-28 01:51:59"
+            "time": "2016-02-16 20:22:28"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "typo3fluid/fluid": 20
+        "typo3fluid/fluid": 20,
+        "symfony/yaml": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
